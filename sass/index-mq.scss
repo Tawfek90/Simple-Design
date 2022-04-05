@@ -1,0 +1,1179 @@
+@media (max-width: 575.98px) {
+  .shisco {
+    grid-template-columns: 1fr;
+
+    .p1 {
+      padding-bottom: 10px;
+      margin-left: 50px;
+
+      .logo {
+        font-size: 41px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 9px;
+      }
+
+      p {
+        position: inherit;
+      }
+    }
+
+    .p2,
+    .p3,
+    .p4 {
+      justify-self: start;
+      margin-top: 5px;
+      margin-left: 100px;
+    }
+
+    .p4 {
+      margin-left: 107px;
+    }
+
+    .p3 {
+      i {
+        right: 195px;
+      }
+    }
+  }
+  // nav
+  nav {
+    ul {
+      li {
+        margin-left: 13px;
+        padding-top: 0;
+        font-size: 12px;
+      }
+    }
+  }
+  // odio
+  .odio {
+    text-align: center;
+    height: 400px;
+    padding-top: 140px;
+
+    h1 {
+      font-size: 29px;
+      text-align: center;
+    }
+
+    .bt1,
+    .bt2 {
+      font-size: 12px;
+      letter-spacing: 1px;
+
+      &:hover {
+        font-size: 13px;
+      }
+    }
+  }
+  // deg
+  .deg {
+    .p1 {
+      font-size: 20px;
+    }
+
+    .p2 {
+      font-size: 13px;
+    }
+
+    button {
+      text-transform: capitalize;
+      font-size: 15px;
+      padding: 9px 0;
+    }
+  }
+  // kalam
+  .kalam {
+    padding-top: 76px;
+
+    p {
+      font-size: 12px;
+      padding: 2px 69px;
+    }
+  }
+  // fringilla
+  .fringilla {
+    h3 {
+      font-weight: bold;
+      font-size: 23px;
+    }
+
+    hr {
+      left: 203px;
+    }
+
+    .awe-container {
+      margin-top: 59px;
+      font-size: 7px;
+
+      .awe {
+        margin-bottom: 34px;
+        height: 331px;
+
+        h2 {
+          position: relative;
+          top: -21px;
+        }
+
+        p {
+          position: relative;
+          top: -28px;
+          line-height: 26px;
+        }
+
+        i.p1 {
+          right: 61px;
+          font-size: 21px;
+          width: 40px;
+          height: 40px;
+          top: -28px;
+        }
+
+        i.p2 {
+          position: relative;
+          top: -37px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .kalam2 {
+    margin-top: 12px;
+    padding-top: 68px;
+
+    .kalam-container {
+      h4 {
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 20px;
+        margin-top: 9px;
+        width: 91%;
+      }
+
+      p {
+        font-size: 10px;
+        width: 147px;
+        margin-top: 11px;
+        height: 35px;
+      }
+    }
+  }
+  // persons
+  .persons {
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 225px;
+    }
+
+    .persons-container {
+      grid-template-columns: repeat(2,1fr);
+
+      .person {
+        img {
+          width: 100px;
+          margin-bottom: 19px;
+        }
+      }
+    }
+  }
+
+  .persons2 {
+    h3 {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 215px;
+    }
+
+    .persons2-container {
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+      margin-top: 32px;
+
+      .person {
+        padding: 72px;
+        margin: -61px 0;
+
+        p {
+          font-size: 14px;
+        }
+
+        .name {
+          img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+          }
+        }
+
+        .caption {
+          h3 {
+            font-size: 19px;
+            padding-bottom: 0;
+            margin-left: 26px;
+          }
+
+          p {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  // tempus
+  .tempus {
+    padding-top: 64px;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    hr {
+      left: 98px;
+      margin-bottom: 43px;
+    }
+
+    .tempus-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  //felis
+  .felis {
+    padding-left: 54px;
+
+    .felis-container {
+      grid-template-columns: 1fr 1fr;
+
+      .felis-child1 {
+        .shake {
+          i {
+            font-size: 47px;
+          }
+
+          h2 {
+            font-size: 26px;
+          }
+        }
+
+        p {
+          font-size: 13px;
+        }
+
+        ul {
+          margin-top: -1px;
+
+          li {
+            a {
+              i {
+                height: 30px;
+              }
+            }
+          }
+        }
+      }
+
+      .felis-child2 {
+        h3 {
+          font-size: 15px;
+        }
+
+        .f1,
+        .f2,
+        .f2,
+        .f3 {
+          i {
+            font-size: 16px;
+            margin-top: -8px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+
+      .felis-child3 {
+        h3 {
+          font-size: 15px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .felis-child4 {
+        h3 {
+          font-size: 13px;
+        }
+
+        p {
+          font-size: 10px;
+          margin-top: 16px;
+
+          &:nth-of-type(3) {
+            font-size: 9px;
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+  }
+  // footer
+  footer {
+    .p-container {
+      font-size: 8px;
+      font-weight: bold;
+      height: 41px;
+      line-height: 41px;
+    }
+  }
+}
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+  .shisco {
+    grid-template-columns: 1fr;
+
+    .p1 {
+      padding-bottom: 10px;
+      margin-left: 50px;
+
+      .logo {
+        font-size: 41px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 9px;
+      }
+
+      p {
+        position: inherit;
+      }
+    }
+
+    .p2,
+    .p3,
+    .p4 {
+      justify-self: start;
+      margin-top: 5px;
+      margin-left: 100px;
+    }
+
+    .p4 {
+      margin-left: 107px;
+    }
+
+    .p3 {
+      i {
+        right: 195px;
+      }
+    }
+  }
+  // nav
+  nav {
+    ul {
+      li {
+        margin-left: 22px;
+        padding-top: 0;
+        font-size: 9px;
+        font-weight: bold;
+      }
+    }
+  }
+  // odio
+  .odio {
+    text-align: center;
+    height: 400px;
+    padding-top: 140px;
+
+    h1 {
+      font-size: 29px;
+      text-align: center;
+    }
+
+    .bt1,
+    .bt2 {
+      font-size: 12px;
+      letter-spacing: 1px;
+
+      &:hover {
+        font-size: 13px;
+      }
+    }
+  }
+  // deg
+  .deg {
+    .p1 {
+      font-size: 20px;
+    }
+
+    .p2 {
+      font-size: 13px;
+    }
+
+    button {
+      text-transform: capitalize;
+      font-size: 15px;
+      padding: 9px 0;
+    }
+  }
+  // kalam
+  .kalam {
+    padding-top: 76px;
+
+    p {
+      font-size: 12px;
+      padding: 2px 69px;
+    }
+  }
+  // fringilla
+  .fringilla {
+    h3 {
+      font-weight: bold;
+      font-size: 26px;
+      padding-bottom: 11px;
+    }
+
+    hr {
+      left: 203px;
+      margin-bottom: -11px;
+    }
+
+    .awe-container {
+      margin-top: 59px;
+      font-size: 3px;
+
+      .awe {
+        margin-bottom: 34px;
+        height: 331px;
+
+        h2 {
+          position: relative;
+          top: -21px;
+        }
+
+        p {
+          position: relative;
+          top: -28px;
+          line-height: 26px;
+        }
+
+        i.p1 {
+          right: 61px;
+          font-size: 21px;
+          width: 40px;
+          height: 40px;
+          top: -28px;
+        }
+
+        i.p2 {
+          position: relative;
+          top: -37px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .kalam2 {
+    margin-top: 12px;
+    padding-top: 68px;
+
+    .kalam-container {
+      h4 {
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 20px;
+        margin-top: 9px;
+        width: 91%;
+      }
+
+      p {
+        font-size: 10px;
+        width: 147px;
+        margin-top: 11px;
+        height: 35px;
+      }
+    }
+  }
+  // persons
+  .persons {
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 225px;
+    }
+
+    .persons-container {
+      grid-template-columns: repeat(2,1fr);
+
+      .person {
+        img {
+          width: 100px;
+          margin-bottom: 19px;
+        }
+      }
+    }
+  }
+
+  .persons2 {
+    h3 {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 215px;
+    }
+
+    .persons2-container {
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+      margin-top: 32px;
+
+      .person {
+        padding: 72px;
+        margin: -61px 0;
+
+        p {
+          font-size: 14px;
+        }
+
+        .name {
+          img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+          }
+        }
+
+        .caption {
+          h3 {
+            font-size: 19px;
+            padding-bottom: 0;
+            margin-left: 26px;
+          }
+
+          p {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  // tempus
+  .tempus {
+    padding-top: 64px;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    hr {
+      left: 98px;
+      margin-bottom: 43px;
+    }
+
+    .tempus-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  //felis
+  .felis {
+    padding-left: 54px;
+    padding-bottom: 25px;
+
+    .felis-container {
+      grid-template-columns: 1fr 1fr;
+
+      .felis-child1 {
+        .shake {
+          i {
+            font-size: 47px;
+          }
+
+          h2 {
+            font-size: 26px;
+          }
+        }
+
+        p {
+          font-size: 13px;
+        }
+
+        ul {
+          margin-top: -1px;
+
+          li {
+            a {
+              i {
+                height: 30px;
+              }
+            }
+          }
+        }
+      }
+
+      .felis-child2 {
+        h3 {
+          font-size: 15px;
+        }
+
+        .f1,
+        .f2,
+        .f2,
+        .f3 {
+          i {
+            font-size: 16px;
+            margin-top: -8px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+
+      .felis-child3 {
+        h3 {
+          font-size: 15px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .felis-child4 {
+        h3 {
+          font-size: 13px;
+        }
+
+        p {
+          font-size: 10px;
+          margin-top: 16px;
+
+          &:nth-of-type(3) {
+            font-size: 9px;
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+  }
+  // footer
+  footer {
+    .p-container {
+      font-size: 8px;
+      font-weight: bold;
+      height: 41px;
+      line-height: 41px;
+    }
+  }
+}
+@media(min-width: 768px) and (max-width: 991.98px) {
+  .shisco {
+    grid-template-columns: 1fr;
+
+    .p1 {
+      padding-bottom: 10px;
+      margin-left: 50px;
+
+      .logo {
+        font-size: 41px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 9px;
+      }
+
+      p {
+        position: inherit;
+      }
+    }
+
+    .p2,
+    .p3,
+    .p4 {
+      justify-self: start;
+      margin-top: 5px;
+      margin-left: 100px;
+    }
+
+    .p4 {
+      margin-left: 107px;
+    }
+
+    .p3 {
+      i {
+        right: 195px;
+      }
+    }
+  }
+  // nav
+  nav {
+    ul {
+      li {
+        margin-left: 26px;
+        padding-top: 0;
+        font-size: 13px;
+        line-height: 11px;
+      }
+    }
+  }
+  // odio
+  .odio {
+    text-align: center;
+    height: 400px;
+    padding-top: 140px;
+
+    h1 {
+      font-size: 29px;
+      text-align: center;
+    }
+
+    .bt1,
+    .bt2 {
+      font-size: 12px;
+      letter-spacing: 1px;
+
+      &:hover {
+        font-size: 13px;
+      }
+    }
+  }
+  // deg
+  .deg {
+    .p1 {
+      font-size: 20px;
+    }
+
+    .p2 {
+      font-size: 13px;
+    }
+
+    button {
+      text-transform: capitalize;
+      font-size: 15px;
+      padding: 9px 0;
+    }
+  }
+  // kalam
+  .kalam {
+    padding-top: 76px;
+
+    p {
+      font-size: 12px;
+      padding: 2px 69px;
+    }
+  }
+  // fringilla
+  .fringilla {
+    h3 {
+      font-weight: bold;
+      font-size: 26px;
+      padding-bottom: 11px;
+    }
+
+    hr {
+      left: 203px;
+      margin-bottom: -11px;
+    }
+
+    .awe-container {
+      margin-top: 59px;
+      font-size: 3px;
+
+      .awe {
+        margin-bottom: 34px;
+        height: 331px;
+
+        h2 {
+          position: relative;
+          top: -21px;
+        }
+
+        p {
+          position: relative;
+          top: -28px;
+          line-height: 26px;
+        }
+
+        i.p1 {
+          right: 61px;
+          font-size: 21px;
+          width: 40px;
+          height: 40px;
+          top: -28px;
+        }
+
+        i.p2 {
+          position: relative;
+          top: -37px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .kalam2 {
+    margin-top: 12px;
+    padding-top: 68px;
+
+    .kalam-container {
+      h4 {
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 20px;
+        margin-top: 9px;
+        width: 91%;
+      }
+
+      p {
+        font-size: 10px;
+        width: 147px;
+        margin-top: 11px;
+        height: 35px;
+      }
+    }
+  }
+  // persons
+  .persons {
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 225px;
+    }
+
+    .persons-container {
+      grid-template-columns: repeat(2,1fr);
+
+      .person {
+        img {
+          width: 100px;
+          margin-bottom: 19px;
+        }
+      }
+    }
+  }
+
+  .persons2 {
+    h3 {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 215px;
+    }
+
+    .persons2-container {
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+      margin-top: 32px;
+
+      .person {
+        padding: 72px;
+        margin: -61px 0;
+
+        p {
+          font-size: 14px;
+        }
+
+        .name {
+          img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+          }
+        }
+
+        .caption {
+          h3 {
+            font-size: 19px;
+            padding-bottom: 0;
+            margin-left: 26px;
+          }
+
+          p {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  // tempus
+  .tempus {
+    padding-top: 64px;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    hr {
+      left: 267px;
+      margin-bottom: 43px;
+    }
+
+    .tempus-container {
+      grid-template-columns: 1fr;
+
+      .tempus-chield {
+        text-align: center;
+
+        .p1 {
+          margin-left: 34%;
+        }
+
+        .awe-container {
+          margin-left: 34%;
+        }
+      }
+    }
+  }
+  //felis
+  .felis {
+    padding-left: 54px;
+    padding-bottom: 25px;
+
+    .felis-container {
+      grid-template-columns: 1fr 1fr;
+
+      .felis-child1 {
+        .shake {
+          i {
+            font-size: 47px;
+          }
+
+          h2 {
+            font-size: 26px;
+          }
+        }
+
+        p {
+          font-size: 13px;
+        }
+
+        ul {
+          margin-top: -1px;
+
+          li {
+            a {
+              i {
+                height: 30px;
+              }
+            }
+          }
+        }
+      }
+
+      .felis-child2 {
+        margin-left: 24%;
+
+        h3 {
+          font-size: 15px;
+        }
+
+        .f1,
+        .f2,
+        .f2,
+        .f3 {
+          i {
+            font-size: 16px;
+            margin-top: -8px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+
+      .felis-child3 {
+        h3 {
+          font-size: 15px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .felis-child4 {
+        h3 {
+          font-size: 13px;
+        }
+
+        p {
+          font-size: 10px;
+          margin-top: 16px;
+
+          &:nth-of-type(3) {
+            font-size: 9px;
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+  }
+  // footer
+  footer {
+    .p-container {
+      font-size: 12px;
+      font-weight: 100;
+      height: 41px;
+      line-height: 41px;
+    }
+  }
+}
+@media (min-width: 991.99px)and(max-width: 1199.98px) {
+  .shisco {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
+
+    .p1 {
+      padding-bottom: 10px;
+      margin-left: 50px;
+
+      .logo {
+        font-size: 41px;
+      }
+
+      .p2,
+      .p3,
+      .p4 {
+        i {
+          right: 174px;
+        }
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 9px;
+      }
+
+      p {
+        left: auto;
+      }
+    }
+
+    .p2,
+    .p3,
+    .p4 {
+      justify-self: start;
+      margin-top: 5px;
+      margin-left: 100px;
+    }
+
+    .p4 {
+      margin-left: 107px;
+    }
+
+    .p3 {
+      i {
+        right: 195px;
+      }
+    }
+  }
+  .fringilla {
+    h3 {
+      font-weight: bold;
+      font-size: 26px;
+      padding-bottom: 11px;
+    }
+
+    hr {
+      left: 405px;
+    margin-bottom: -13px;
+    margin-top: -3px;
+    }
+
+    .awe-container {
+      margin-top: 59px;
+      font-size: 8px;
+
+
+      .awe {
+        margin-bottom: 34px;
+        height: 268px;
+        padding-top: 40px;
+
+
+        h2 {
+          position: relative;
+          top: -21px;
+        }
+
+        p {
+          position: relative;
+          top: -28px;
+          line-height: 26px;
+        }
+
+        i.p1 {
+          right: 124px;
+          font-size: 21px;
+          width: 40px;
+          height: 40px;
+          top: -62px;
+        }
+
+        i.p2 {
+          position: relative;
+          top: -15px;
+          font-size: 31px;
+        }
+      }
+    }
+  }
+  .persons {
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    hr {
+      left: 423px;
+    }
+
+    .persons-container {
+      grid-template-columns: repeat(2,1fr);
+
+      .person {
+        img {
+          width: 100px;
+          margin-bottom: 19px;
+        }
+      }
+    }
+  }
+  .persons2{
+    hr{
+      left: 427px;
+    }
+  }
+  .tempus{
+    hr{
+        left: 410px;
+        margin-bottom: 34px;
+    }
+  }
+
+}
